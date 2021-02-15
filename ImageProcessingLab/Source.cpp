@@ -62,7 +62,7 @@ void display(void)
 
 int main(int argc, char** argv)
 {
-    printf_s("Input xStart, yStart, xEnd, yEnd");
+    printf_s("Input xStart, yStart, xEnd, yEnd:\n");
     scanf_s("%f %f %f %f", &xStart, &yStart, &xEnd, &yEnd);
     glutInit(&argc, argv);
     glutInitWindowSize(640, 480);//sets the width and height of the window in pixels
