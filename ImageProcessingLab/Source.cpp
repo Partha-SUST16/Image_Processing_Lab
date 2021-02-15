@@ -48,7 +48,7 @@ void bresenhamLineDrawing()
             y = y + 1;
             p0 = 2 * (yDiff)-2 * (xDiff);
         }
-
+    
     }
 
     glutPostRedisplay();
