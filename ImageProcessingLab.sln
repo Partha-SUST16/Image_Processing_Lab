@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BresenhamCircleDrawing", "B
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CohenSutherlandLineClipping", "CohenSutherlandLineClipping\CohenSutherlandLineClipping.vcxproj", "{DEC9F506-1487-47D2-AD00-46FA967874BC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SutherlandHodgmanPolygonClipping", "SutherlandHodgmanPolygonClipping\SutherlandHodgmanPolygonClipping.vcxproj", "{F60A9F23-19A5-42DF-A860-BAFA3D25F21C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{DEC9F506-1487-47D2-AD00-46FA967874BC}.Release|x64.Build.0 = Release|x64
 		{DEC9F506-1487-47D2-AD00-46FA967874BC}.Release|x86.ActiveCfg = Release|Win32
 		{DEC9F506-1487-47D2-AD00-46FA967874BC}.Release|x86.Build.0 = Release|Win32
+		{F60A9F23-19A5-42DF-A860-BAFA3D25F21C}.Debug|x64.ActiveCfg = Debug|x64
+		{F60A9F23-19A5-42DF-A860-BAFA3D25F21C}.Debug|x64.Build.0 = Debug|x64
+		{F60A9F23-19A5-42DF-A860-BAFA3D25F21C}.Debug|x86.ActiveCfg = Debug|Win32
+		{F60A9F23-19A5-42DF-A860-BAFA3D25F21C}.Debug|x86.Build.0 = Debug|Win32
+		{F60A9F23-19A5-42DF-A860-BAFA3D25F21C}.Release|x64.ActiveCfg = Release|x64
+		{F60A9F23-19A5-42DF-A860-BAFA3D25F21C}.Release|x64.Build.0 = Release|x64
+		{F60A9F23-19A5-42DF-A860-BAFA3D25F21C}.Release|x86.ActiveCfg = Release|Win32
+		{F60A9F23-19A5-42DF-A860-BAFA3D25F21C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
